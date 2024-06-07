@@ -1,0 +1,14 @@
+---
+
+# Install packages
+- name: Install homebrew packages
+  community.general.homebrew:
+    name: "{{ item }}"
+    state: present
+  loop: "{{ homebrew_list }}"
+
+- name: install vscode plugins
+  ansible.builtin.command:
+    cmd: "code --install-extension {{ item }}"
+    creates: "~/.vscode/extensions/{{ item }}-*"
+  loop: "{{ vscode_list }}"
