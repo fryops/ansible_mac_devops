@@ -1,0 +1,51 @@
+---
+- hosts: localhost
+  gather_facts: true
+  
+  roles:
+  - role: mac_setup
+    vscode_list:
+      - 4ops.terraform
+      - ansenhuang.vscode-view-readme
+      - bazelbuild.vscode-bazel
+      - boto3typed.boto3-ide
+      - github.codespaces
+      - github.remotehub
+      - github.vscode-github-actions
+      - golang.go
+      - hashicorp.terraform
+      - hilleer.yaml-plus-json
+      - inercia.vscode-k3d
+      - matheusq94.tfs
+      - me-dutour-mathieu.vscode-github-actions
+      - mechatroner.rainbow-csv
+      - mohsen1.prettify-json
+      - ms-azuretools.vscode-docker
+      - ms-kubernetes-tools.kind-vscode
+      - ms-kubernetes-tools.vscode-kubernetes-tools
+      - ms-python.debugpy
+      - ms-python.pylint
+      - ms-python.python
+      - ms-python.vscode-pylance
+      - ms-vscode-remote.remote-containers
+      - ms-vscode.azure-repos
+      - ms-vscode.remote-repositories
+      - redhat.ansible
+      - redhat.vscode-yaml
+      - sandipchitale.docker-dive
+      - sandipchitale.kubernetes-file-system-explorer
+      - sandipchitale.kubernetes-no-load-on-select
+      - sandipchitale.vscode-kubernetes-api-resources
+      - sandipchitale.vscode-kubernetes-dashboard
+      - sandipchitale.vscode-kubernetes-edit-kubeconfig
+      - sandipchitale.vscode-kubernetes-helm-extension-pack
+      - sandipchitale.vscode-kubernetes-helm-extras
+      - sandipchitale.vscode-kubernetes-kubectl-ripper
+      - sandipchitale.vscode-kubernetes-logs
+      - sandipchitale.vscode-multipane-explorer
+      - shd101wyy.markdown-preview-enhanced
+      - thomascsd.vscode-readme-pattern
+    homebrew_list:
+      - docker
+      - docker-buildx
+      - k9s
