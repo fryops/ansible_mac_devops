@@ -1,9 +1,9 @@
 ---
 - hosts: localhost
   gather_facts: true
-  
+
   roles:
-  - role: mac_setup
+  - role: devops_mac_setup
     vscode_list:
       - 4ops.terraform
       - ansenhuang.vscode-view-readme
@@ -49,3 +49,15 @@
       - docker
       - docker-buildx
       - k9s
+      - kubectl
+      - k3d
+      - hashicorp/tap/terraform
+      - ansible-lint
+    homebrew_cask_list:
+      - iterm2
+      - visual-studio-code
+      - kubecontext
+      - obsidian
+      - postman
+    homebrew_tap_list:
+      - hashicorp/tap
