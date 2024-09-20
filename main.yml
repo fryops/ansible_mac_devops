@@ -59,5 +59,3 @@
       - kubecontext
       - obsidian
       - postman
-    homebrew_tap_list:
-      - hashicorp/tap
