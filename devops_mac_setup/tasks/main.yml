@@ -1,5 +1,3 @@
----
-
 # Install packages
 - name: Tap a Homebrew repository, state present
   community.general.homebrew_tap:
