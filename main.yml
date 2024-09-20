@@ -53,9 +53,12 @@
       - k3d
       - hashicorp/tap/terraform
       - ansible-lint
+      - helm
     homebrew_cask_list:
       - iterm2
       - visual-studio-code
       - kubecontext
       - obsidian
       - postman
+    homebrew_tap_list:
+      - hashicorp/tap
