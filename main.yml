@@ -54,6 +54,7 @@
       - hashicorp/tap/terraform
       - ansible-lint
       - helm
+      - gh
     homebrew_cask_list:
       - iterm2
       - visual-studio-code
