@@ -45,21 +45,31 @@
       - sandipchitale.vscode-multipane-explorer
       - shd101wyy.markdown-preview-enhanced
       - thomascsd.vscode-readme-pattern
+      - grafana.grafana-alloy
     homebrew_list:
+      - awscli
       - docker
       - docker-buildx
       - k9s
       - kubectl
       - k3d
       - hashicorp/tap/terraform
+      - weaveworks/tap/eksctl
       - ansible-lint
       - helm
       - gh
+      - mimirtool
+      - jq
+      - yq
+      - wget
+
     homebrew_cask_list:
       - iterm2
       - visual-studio-code
       - kubecontext
       - obsidian
       - postman
+      - aws-vault
     homebrew_tap_list:
       - hashicorp/tap
+      - weaveworks/tap
