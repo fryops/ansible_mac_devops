@@ -70,6 +70,7 @@
       - obsidian
       - postman
       - aws-vault
+      - ghostty
     homebrew_tap_list:
       - hashicorp/tap
       - weaveworks/tap
